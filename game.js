@@ -59,6 +59,8 @@ getNewQuestion = () => {
     }
 
     questionCounter++;
+    questionCounterText.innerText = questionCounter + "/" + MAX_QUESTIONS;
+
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
