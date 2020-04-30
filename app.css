@@ -20,7 +20,7 @@ h4 {
 
 h1 {
     font-size: 5.4rem;
-    color: magenta;
+    color: rgba(170,0,255,1);
     margin-bottom: 5rem;
 }
 
@@ -86,16 +86,16 @@ h3 {
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid magenta;
+    border: 0.1rem solid rgba(170,0,255,1);
     margin-bottom: 1rem;
     text-decoration: none;
-    color: magenta;
+    color: rgba(170,0,255,1);
     background-color: white;
 }
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(255,0,255 ,1 );
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(170,0,255,1);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
 }
@@ -121,7 +121,7 @@ input {
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
-    box-shadow: 0 0.1rem 1.4rem 0 rgba(255,0,255 ,1 );
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(170,0,255,1);
 }
 
 input::placeholder {

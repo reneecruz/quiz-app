@@ -8,14 +8,14 @@
 }
 .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(255,0,255 ,1 );
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(170,0,255,1);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
 }
 
 .choice-prefix {
     padding: 1.5rem 2.5rem;
-    background-color: magenta;
+    background-color: rgba(170,0,255,1);
     color: white;
 }
 
@@ -25,11 +25,11 @@
 }
 
 .correct {
-    background-color: #28a745;
+    background-color: rgba(105,240,174,1);
 }
 
 .incorrect {
-    background-color: #dc3545;
+    background-color: rgba(255,82,82,1);
 }
 
 #hud {
@@ -49,13 +49,13 @@
 #progressBar {
     width: 20rem;
     height: 4rem;
-    border: 0.3rem solid magenta;
+    border: 0.3rem solid rgba(170,0,255,1);
     margin-top: 1.5rem;
 }
 
 #progressBarFull {
     height: 3.4rem;
-    background-color: magenta;
+    background-color: rgba(170,0,255,1);
     width: 0%;
 }
 
@@ -64,7 +64,7 @@
 #loader {
     border: 1.6rem solid white;
     border-radius: 50%;
-    border-top: 1.6rem solid magenta;
+    border-top: 1.6rem solid rgba(170,0,255,1);
     width: 12rem;
     height: 12rem;
     animation: spin 2s linear infinite;
